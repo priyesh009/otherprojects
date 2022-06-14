@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Source+Code+Pro:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.sidebar{
+    background-color:rgb(167, 208, 223);
+    /* width: 12vw; */
+    font-family: 'Fira Sans', sans-serif;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+    position: absolute;
+}
+
+.sidebar nav{
+    padding: 45px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 25px 0;
+    padding-inline: 20;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+}
+
+.main{
+    /* background-color: yellow; */
+    width: 90vw;
+    padding: 10PX;
+    margin-left: 30px;
+    height: 25vw;
+}
+
+.container{
+    display: flex;
+}
+
+.infoContainer{
+    height: 55vh;
+    width: 80wv;
+    margin: 144px auto;
+    /* background-color: rgb(0, 255, 128); */
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.hello{
+    font-size: 50px;
+}
+    
+.name{
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.about{
+    font-size: 35px;
+}
+.moreabout{
+    font-size: 17px;
+    /* font-weight: bold; */
+    font-family: 'Fira Sans', sans-serif;
+    padding: 10px;
+    margin-top: 23px;
+}
+.buttons button{
+padding: 9px 14px;
+border-radius: 22px;
+color: white;
+background-color: dodgerblue;
+font-weight: bold;
+font-size: 16px;
+margin: 0 3px;
+cursor: pointer;
+}
+
+.buttons button:hover{
+    background-color: white;
+    color: dodgerblue;
+}
+
+.devPic img {
+    height: 75vh;
+
+
+}
+
+
+.contactform{
+    font-family: 'Fira Sans', sans-serif;
+    padding: 0 34px;
+    padding-top: 100px;
+}
+
+.contactform h1 {
+    font-family: 'Source Code Pro', monospace;
+    /* text-align: center; */
+}
+
+.contactform div {
+    width: 35vw;
+    padding: 10px 0;
+    margin: 6px 0;
+    border-radius: 5px;
+}
+
+.contactform div input {
+    width: 50vw;
+    padding: 1px 0;
+    margin: 6px 0;
+    border-radius: 5px;
+}
+
+
+.sidebarGo{
+    transform: translate(-433px, 0px);
+    position: absolute;   
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.linkedin{
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.cross{
+    margin-left: 150px;
+}
+
+.projects{
+    font-family: 'Fira Sans', sans-serif;
+    /* height: 55vh;
+    width: 80wv;
+    margin: 144px auto; */
+    /* background-color: rgb(0, 255, 128); */
+    padding: 30px;
+    /* display: flex; */
+    /* justify-content: space-around; */
+}
+
+@media  (max-width : 800px){
+   /* *{ background-color:rgb(228, 142, 142) ; */
+    .devPic{
+        display: none;
+    }
+   }
+   /* .sidebar{
+    transform: translate(-433px, 0px);
+    position: absolute;
+   } */
